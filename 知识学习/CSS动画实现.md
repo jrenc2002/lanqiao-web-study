@@ -512,3 +512,23 @@ CSS的`transform`属性允许你对元素进行移动、缩放、旋转、倾斜
 ```
 他们本质上都是通过transtion实现的渐变动画。transform也是css的属性一部分而已。
 
+## 6. **构造`@keyframes`动画：**
+   - 使用JavaScript构造一个完整的`@keyframes`动画，并将其插入到文档的`<style>`标签中。
+   - 示例：
+     ```javascript
+     var duration = '2s';
+     var fromPosition = '-100%';
+     var toPosition = '0';
+     var styleSheet = document.createElement('style');
+     styleSheet.type = 'text/css';
+     styleSheet.innerHTML = `@keyframes dynamicSlideIn {
+       from { transform: translateX(${fromPosition}); }
+       to { transform: translateX(${toPosition}); }
+     }`;
+     document.head.appendChild(styleSheet);
+     
+     var elem = document.getElementById('myElement');
+     elem.style.animationName = 'dynamicSlideIn';
+     elem.style.animationDuration = duration;
+     elem.style.animationFillMode = 'forwards';
+     ```
