@@ -1,5 +1,6 @@
 # document和window的区别？
 就是简而言之，dom是一个对象，win也是一个对象。他们都是Web API里的一个不同角色。
+
 ## window对象
 - window对象  
 window就是窗口吗，它代表浏览器的一个窗口或标签页，并且是 JavaScript 中的全局对象。它提供了许多控制浏览器窗口的方法和属性。  
