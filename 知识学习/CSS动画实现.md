@@ -1,4 +1,4 @@
-# 创建动画的API
+## 创建动画的API
 在CSS中创建动画主要依赖于以下几个关键的API：
 
 1. `@keyframes` 规则
@@ -187,8 +187,8 @@
 
 
 
-# 动画API的实践
-## 1. keyframes的使用
+## 动画API的实践
+### 1. keyframes的使用
 ```css
 .button {
   cursor: pointer;
@@ -233,7 +233,7 @@
 - animation-play-state是动画的播放状态，paused就是暂停的意思，running就是运行的意思。
 - animation-fill-mode是动画的填充模式，forwards就是向前的意思，在这里是应用最后一帧的设置，backwards就是向后的意思在这里是应用第一帧率的设置，一般这个第一帧是它原来的设置而不是动画帧的第一个0%，both就是两者都有的意思，这里差不多和forwards相似。
 
-## 2. 实现一个hover属性
+### 2. 实现一个hover属性
 - keyframers悬停动画的实现
 ```CSS
 .button {
@@ -286,7 +286,7 @@
 
 
 
-## 3. 实现一个点击事件
+### 3. 实现一个点击事件
 为什么我点击后没有反馈？
 ```css
 .button {
@@ -358,7 +358,7 @@ this.classList.add('animate');
 ```
 
 
-## 4.实现其他动画效果，旋转，放大缩小，移动等
+### 4.实现其他动画效果，旋转，放大缩小，移动等
 CSS的`transform`属性允许你对元素进行移动、缩放、旋转、倾斜等变形操作。以下是一些常用的`transform`函数：
 
 1. **平移（Translate）**：
@@ -479,7 +479,7 @@ CSS的`transform`属性允许你对元素进行移动、缩放、旋转、倾斜
 }
 ```
 
-## 5.渐变过渡动画效果
+### 5.渐变过渡动画效果
 - transition 实现渐变动画
 ```CSS
 .button {
@@ -512,7 +512,7 @@ CSS的`transform`属性允许你对元素进行移动、缩放、旋转、倾斜
 ```
 他们本质上都是通过transtion实现的渐变动画。transform也是css的属性一部分而已。
 
-## 6. **构造`@keyframes`动画：**
+### 6. **构造`@keyframes`动画：**
    - 使用JavaScript构造一个完整的`@keyframes`动画，并将其插入到文档的`<style>`标签中。
    - 示例：
      ```javascript

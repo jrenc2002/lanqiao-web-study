@@ -1,12 +1,12 @@
-# document和window的区别？
+## document和window的区别？
 就是简而言之，dom是一个对象，win也是一个对象。他们都是Web API里的一个不同角色。
 
-## window对象
+### window对象
 - window对象  
 window就是窗口吗，它代表浏览器的一个窗口或标签页，并且是 JavaScript 中的全局对象。它提供了许多控制浏览器窗口的方法和属性。  
 作用域：window 是最顶层的对象，在浏览器中的任何 JavaScript 代码中都可以直接访问 window 及其属性和方法，无需任何限定前缀。  
 功能：window 对象包含了**浏览器窗口的属性，如窗口的大小、位置等**，同时也提供了**一些方法来控制浏览器窗口的行为，如打开新窗口、定时器函数（setTimeout、setInterval）、浏览器历史控制等。此外，它还是所有全局变量和全局函数的宿主**。
-## document对象
+### document对象
 - document对象  
 定义：document 对象是 window 对象的一个属性，它代表了加载在窗口中的 HTML 文档，是 Document Object Model（DOM）的入口点。  
 作用域：document 对象**专门用于操作和访问文档的内容**，比如 HTML 元素、CSS 样式等。  
@@ -17,8 +17,8 @@ window就是窗口吗，它代表浏览器的一个窗口或标签页，并且�
 所以当时**其实甘特图最主要的问题**是，我不知道windows API和document API的区别。我不懂原生的html，**当这块知识缺失了自然是不会去设计这个逻辑的**。
 所以本质上就是会用封装好的API。
 
-# Dom流API学习
-## 如何获取元素
+## Dom流API学习
+### 如何获取元素
 在DOM中获取元素主要涉及以下几个API：
 
 1. `getElementById()`
@@ -121,12 +121,12 @@ window就是窗口吗，它代表浏览器的一个窗口或标签页，并且�
 通过这些API，可以根据不同的条件和需求，在DOM树中灵活地获取单个或多个元素。
 
 ---
-## 如何创建元素
-### 创建元素
+### 如何创建元素
+#### 创建元素
 ```javascript
 document.createElement('tag')
 ```
-### 创建文本节点
+#### 创建文本节点
 ```javascript
 document.createTextNode('text')
 ```
@@ -143,8 +143,8 @@ var text = document.createTextNode('text')
 text在这里面是他文字的内容。
 
 ---
-## 如何添加元素
-### 添加元素
+### 如何添加元素
+#### 添加元素
 ```javascript
 parent.appendChild(child)
 ```
@@ -154,7 +154,7 @@ parent.appendChild(child)
   <p>text</p>
 </div>
 ```
-### 插入元素
+#### 插入元素
 ```javascript
 parent.insertBefore(newNode, referenceNode)
 ```
@@ -174,8 +174,8 @@ parent.insertBefore(newNode, referenceNode)
 ```
 referenceNode起了什么作用？
 referenceNode是一个参考节点，他的作用是在参考节点之前插入新的节点。
-## 如何删除元素
-### 删除元素
+### 如何删除元素
+#### 删除元素
 ```javascript
 parent.removeChild(child)
 ```
@@ -195,7 +195,7 @@ parent.removeChild(child)
 <div id="parent">
 </div>
 ```
-## 如何修改元素内容？
+### 如何修改元素内容？
 在DOM（文档对象模型）中修改元素内容主要涉及以下几个常用的API：
 
 1. `innerText` 和 `textContent`
@@ -273,8 +273,8 @@ parent.removeChild(child)
     ```
 
 通过这些API，可以方便地在JavaScript中修改DOM元素的样式和属性，以实现动态的页面效果。
-## 如何替换元素
-### 替换元素
+### 如何替换元素
+#### 替换元素
 在DOM操作中，替换元素涉及以下几个常用的API：
 
 1. `replaceChild(newChild, oldChild)`
@@ -313,7 +313,7 @@ parent.removeChild(child)
 
 
 
-## 如何给元素添加事件
+### 如何给元素添加事件
 在DOM中处理元素事件主要涉及以下几个API：
 
 1. `addEventListener(event, handler, [options])`
@@ -421,7 +421,7 @@ parent.removeChild(child)
 
 通过这些API，可以灵活地为DOM元素添加、移除和触发事件，实现丰富的交互效果。
 
-## 生命周期
+### 生命周期
 DOM（文档对象模型）和Window对象在Web页面的生命周期中扮演着重要的角色。下面介绍一些与DOM和Window生命周期相关的API：
 
 1. Window的生命周期事件：

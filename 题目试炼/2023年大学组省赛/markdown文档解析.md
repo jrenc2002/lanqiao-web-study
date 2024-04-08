@@ -1,10 +1,10 @@
-# 题目来源
+## 题目来源
 *[Markdown文档解析-官方题目链接](https://www.lanqiao.cn/problems/5142/learning/?subject_code=4&group_code=2&match_num=14&match_flow=1&origin=cup)*
 
-# 题目要求
+## 题目要求
 
 
-# 核心知识点
+## 核心知识点
 1. node ./js/index.js 这是一个什么命令？
    命令 `node ./js/index.js` 是在命令行或终端中使用 Node.js 来执行 JavaScript 文件的命令。下面是这个命令各部分的详细解释：
 
@@ -41,11 +41,11 @@
 3. 如果我node启动了一个js文件，我js文件里有console.log它会在哪里打印？
     执行node ./js/index.js时会打印在终端中。
 
-# 源码
+## 源码
 ```javascript 
 
 ```
 
-# 总结
+## 总结
 没做出来。感觉有点需要算法基础啊。  
 到了后面就根据前面的数据进行判断了，有点力不从心，脑子不清醒。改天再做。

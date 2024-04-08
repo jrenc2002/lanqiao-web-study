@@ -1,6 +1,6 @@
-# 蓝桥杯Web考纲整理
-## <span style='color:blue'>Jrenc<span/>
-### HTML5、CSS3
+## 蓝桥杯Web考纲整理
+### <span style='color:blue'>Jrenc<span/>
+#### HTML5、CSS3
 
 1. **HTML 基础标签**
     - `<div>`、`<span>`、`<p>`、`<a>`、`<img>`、`<ul>`、`<li>` 等常用标签，用于结构的定义和内容的展示。
@@ -32,7 +32,7 @@
 9. **媒体查询**
     - 使用 `@media` 规则根据不同的屏幕尺寸应用不同的样式规则。
 
-### JavaScript
+#### JavaScript
 
 1. **JavaScript 基础语法**
     - 变量、数据类型、操作符、条件语句、循环等。
@@ -53,7 +53,7 @@
 6. **正则表达式**
     - 用于字符串的模式匹配和搜索替换。
 
-### ES6
+#### ES6
 
 1. **let 和 const 命令**
     - `let` 用于声明局部变量，`const` 用于声明常量。
@@ -73,7 +73,7 @@
 6. **异步编程与模块化**
     - Promise、async/await 用于异步编程；import/export 用于模块化。
 
-### Axios
+#### Axios
 
 1. **Axios API**
     - 提供 `get`、`post`、`put`、`delete` 等 HTTP 请求方法。
@@ -90,7 +90,7 @@
 5. **拦截器**
     - 请求拦截器和响应拦截器，用于请求前的处理和响应后的处理。
 
-### Vue.js
+#### Vue.js
 
 1. **Vue 核心**
     - 包括常用指令（v-if、v-for、v-bind、v-model）、模板语法、生命周期钩子、数据渲染、事件绑定、自定义指令、组合式函数、插件等。
@@ -104,7 +104,7 @@
 4. **pinia 使用**
     - Vue 应用的状态管理库，用于管理全局状态。
 
-### ElementPlus
+#### ElementPlus
 
 1. **基础组件的使用**
     - 按钮、输入框、对话框等基础组件的使用。
@@ -118,7 +118,7 @@
 4. **导航组件**
     - Tabs、Menu、Breadcrumb 等导航相关的组件。
 
-### ECharts
+#### ECharts
 
 1. **ECharts 基础语法**
     - ECharts 的初始化、配置项的基本概念。
@@ -135,7 +135,7 @@
 5. **ECharts 事件处理**
     - 处理图表的点击、鼠标悬停等事件。
 
-### Node.js
+#### Node.js
 
 1. **Node.js 基础**
     - Node.js 的安装、模块系统、事件循环等基础概念。
