@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "cf5f3d4aca9932e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "21821d721e20afaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b14a55f605ce7f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目试炼/2022年大学组省赛/寻找小狼人.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0eee1929258c8ec4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93ef8277a41848c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识学习/正则表达式.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab49cb059311500b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e158b7b27a5a79d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c7ecea998137ed5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2ee9e7652752c43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "93966cc0bb688ac0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "99f65aff7642e87e",
+    "type": "split",
+    "children": [
+      {
+        "id": "02b6c5623aff7a47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d21448b7b303970a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "知识学习/正则表达式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "535d6d0c8e4f3e11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "知识学习/正则表达式.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "307956750f7713d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13c8b9a017288a30",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "知识学习/正则表达式.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "93ef8277a41848c5",
+  "lastOpenFiles": [
+    "题目试炼/2022年大学组省赛/寻找小狼人.md",
+    "知识学习/正则表达式.md",
+    "题目试炼/2022年大学组省赛/图片水印生成.md",
+    "题目试炼/2022年大学组省赛/蓝桥知识网.md",
+    "题目试炼/2022年大学组省赛/课程列表.md",
+    "题目试炼/2022年大学组省赛/购物车.md",
+    "题目试炼/2022年大学组省赛/冬奥大抽奖.md",
+    "题目试炼/2022年大学组省赛/灯的颜色变化.md",
+    "题目试炼/2022年大学组省赛/布局切换.md",
+    "题目试炼/2023年大学组省赛/电影院排座位.md",
+    "题目试炼/2023年大学组省赛/年度明星项目.md",
+    "题目试炼/2023年大学组省赛/全球新冠疫情数据统计.md",
+    "题目试炼/2023年大学组省赛/视频弹幕.md",
+    "题目试炼/2023年大学组省赛/收集帛书碎片.md",
+    "题目试炼/2023年大学组省赛/markdown文档解析.md",
+    "题目试炼/2023年大学组省赛/自适应页面.md",
+    "知识学习/Vue3系统学习.md",
+    "知识学习/JS如何作用于Html.md",
+    "知识学习/JS函数式编程.md",
+    "知识学习/CSS动画实现.md",
+    "知识学习/蓝桥杯Web知识点.md"
+  ]
+}
